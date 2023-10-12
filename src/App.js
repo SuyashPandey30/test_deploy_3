@@ -1,8 +1,8 @@
 import './App.css';
-import Nav from './Nav';
+import Nav from './Nav.js';
 import { HashRouter, Routes, Route } from 'react-router-dom'; 
-import { Home,About,Contact,Blog } from './F1';
-import LandingPage from './LandingPage';
+import { Home,About,Contact,Blog } from './F1.js';
+import LandingPage from './LandingPage.js';
 function App() {
   return (
     <div>
