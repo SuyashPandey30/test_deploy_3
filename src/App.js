@@ -1,5 +1,5 @@
 import "./App.css";
-import F1 from "./F1";
+// import F1 from "./F1";
 import Nav from "./Nav.js";
 import LandingPage from "./landingpage";
 import { HashRouter, Routes, Route } from "react-router-dom";
@@ -8,7 +8,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>
-      <LandingPage />
+      {/* <LandingPage /> */}
       <HashRouter>
         <Nav />
         <Routes>
