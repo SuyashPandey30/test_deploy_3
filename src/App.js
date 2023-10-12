@@ -2,7 +2,7 @@ import './App.css';
 import Nav from './Nav';
 import { HashRouter, Routes, Route } from 'react-router-dom'; 
 import { Home,About,Contact,Blog } from './F1';
-import LandingPage from './landingPage';
+import LandingPage from './landingpage';
 function App() {
   return (
     <div>
