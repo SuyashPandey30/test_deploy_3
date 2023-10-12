@@ -1,6 +1,5 @@
 import './App.css';
 import Nav from './components/Nav';
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter, Routes, Route } from 'react-router-dom'; 
 import { Home,About,Contact,Blog } from './components/F1';
 import LandingPage from './components/LandingPage';
